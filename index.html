@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurt Brown - Portfolio Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- https://getbootstrap.com/docs/5.3/layout/containers/ -->
+    <div class="container-fluid px-0">
+
+    <!-- Navbar -->
+    <!-- https://getbootstrap.com/docs/5.3/components/navbar/ -->
+
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://wcet.waketech.edu/klbrown13/WEB287/Midterm_Project/index.html">
+                <span class="material-icons-outlined me-1">laptop</span> Kurt Brown
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" 
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container px-3"></div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link me-lg-3" href="https://wcet.waketech.edu/klbrown13/WEB287/Midterm_Project/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-lg-3" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-lg-3" href="#resume">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link me-lg-3" href="#portfolio">Portfolio</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link me-lg-3" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="bg-light py-5">
+        <div class="container px-5">
+            <div class="row align-items-center">
+                <div class="col-lg-8 col-xl-7 col-xxl-6">
+                    <div class="my-5">
+                        <h2 class="text-center fw-bold mb-2">Hello! I am Kurt Brown!</h2>
+                        <h2 class="text-primary text-center fw-bold mb-2"> The Web Development Librarian</h2>
+                        <div class="d-grid gap-3 d-sm-flex justify-content-center">
+                            <a class="btn btn-primary btn-large" href="#about"> Learn More</a>
+                            <a class="btn btn-outline-primary btn-large" href="#portfolio"> View My Work</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-xxl-6 justify-content-center">
+                    <img class="img-fluid rounded-3 my-5" src="images/museum.jpg" height="600" width="600" alt="A picture of Kurt Brown at a museum">
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+        <main>
+        <!-- About -->
+        <section id="about" class="text-center py-5">
+            <div class="container py-5">
+                <div class="row justify-content-center">
+                    <h2 class="fw-bold">About</h2>
+                    <p class="lead text-muted mb-5"> I am a Librarian looking to move into tech.</p>
+                 </div>
+            </div>
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="col-lg-4 mx-auto mb-5">
+                        <div class="d-flex mb-5 about">
+                            <span class="material-icons-outlined m-auto text-primary">school</span>
+                        </div>
+                        <h5>Teaching in Schools</h5>
+                        <p class="text-muted mb-0">I have a bachelor's degree in Computer Science and shortly after became a high school math teacher. I taught in Charlotte, North Carolina. </p>
+                    </div>
+                    <div class="col-lg-4 mx-auto mb-5">
+                        <div class="d-flex mb-5 about">
+                             <span class="material-icons-outlined m-auto text-primary">local_library</span>
+                        </div>
+                        <h5>Teaching in Libraries</h5>
+                        <p class="text-muted mb-0">After changing careers to libraries, I have been teaching basic coding classes to the public since 2019 (North and South Carolina). I have taught HTML, CSS, JavaScript, Bootstrap, and Python classes. </p>
+                    </div>
+                    <div class="col-lg-4 mx-auto mb-5">
+                        <div class="d-flex mb-5 about">
+                            <span class="material-icons-outlined m-auto text-primary">code</span>
+                        </div>
+                        <h5>Teacher to Student</h5>
+                        <p class="text-muted mb-0">I have been teaching basic coding classes to the public since 2019, but I have never been in the tech field. I returned to Wake Tech after graduating in 2012. I have an interest in back-end development and looking to move into that field after graduating. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+        <!-- Resume -->
+        <section id="resume" class="text-center py-5">
+            <div class="container py-5">
+                <div class="row justify-content-center">
+                    <h2 class="fw-bold">Resume</h2>
+                    <p class="lead text-muted mb-5"> This is my most current resume as of February 2024.</p>
+                    
+                    <iframe src="resume.pdf" width="500" height="600"></iframe>
+                 </div>
+                
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Portfolio -->
+        <section id="portfolio" class="text-center py-5">
+            <div class="container py-5">
+                <div class="row justify-content-center">
+                    <h2 class="fw-bold">Portfolio</h2>
+                    <p class="lead text-muted mb-5"> Here are some projects I completed during my time in the Web Development program.</p>
+                 </div>
+
+            </div>
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="col-lg-4 mx-auto mb-5">
+                        <div class="card h-100 shadow-lg border-0 bg-light">
+                            <img class="card-img-top" src="images/library_project.png" alt="An image of a library">
+                            <div class="card-body p-4">
+                                <h5 class="card-title mb-3">Library Website Project</h5>
+                                <div class="mb-2">
+                                    <div class="badge bg-primary rounded-pill">HTML</div>
+                                    <div class="badge bg-primary rounded-pill">CSS</div>
+                                    <div class="badge bg-primary rounded-pill">Bootstrap</div>
+                                </div>
+                                <p class="card-text">I created a simplified version of the website of my current employer for the final project. I used Bootstrap for this project. This project was completed in the Web 125 (Mobile Web Design) class.</p>
+                            </div>
+                            <div class="card-footer bg-transparent mb-3">
+                                <a class="btn btn-outline-primary btn-sm" href="https://wcet.waketech.edu/klbrown13/WEB125/FinalProject/index.html" target="_blank">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mx-auto mb-5">
+                        <div class="card h-100 shadow-lg border-0 bg-light">
+                            <img class="card-img-top" src="images/resume_project2.png" alt="An image of a resume builder">
+                            <div class="card-body p-4">
+                                <h5 class="card-title mb-3">Resume Builder Project</h5>
+                                <div class="mb-2">
+                                    <div class="badge bg-primary rounded-pill">HTML</div>
+                                    <div class="badge bg-primary rounded-pill">CSS</div>
+                                    <div class="badge bg-primary rounded-pill">JavaScript</div>
+                                </div>
+                                <p class="card-text">A user enters their information into the webpage, once they click "Create Resume", a formatted resume is created in a pop-up window. I completed his project using HTML, CSS, and JavaScript.in the Web 115 (Web Markup and Scripting) class. </p>
+                            </div>
+                            <div class="card-footer bg-transparent mb-3">
+                                <a class="btn btn-outline-primary btn-sm" href="https://wcet.waketech.edu/klbrown13/WEB115/FinalProject/finalProject.html" target="_blank">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mx-auto mb-5">
+                        <div class="card h-100 shadow-lg border-0 bg-light">
+                            <img class="card-img-top" src="images/beach_project.png" alt="An image of Topsail Island">
+                            <div class="card-body p-4">
+                                <h5 class="card-title mb-3">Topsail Beach Project</h5>
+                                <div class="mb-2">
+                                    <div class="badge bg-primary rounded-pill">HTML</div>
+                                    <div class="badge bg-primary rounded-pill">CSS</div>
+                                    <div class="badge bg-primary rounded-pill">Bootstrap</div>
+                                </div>
+                                <p class="card-text">This is the completed Topsail Beach Project completed using Bootstrap. This is a website catered to the residents and tourists of Topsail Beach, North Carolina. This project was completed in the Web 125 (Mobile Web Design) class. </p>
+                            </div>
+                            <div class="card-footer bg-transparent mb-3">
+                                <a class="btn btn-outline-primary btn-sm" href="https://wcet.waketech.edu/klbrown13/WEB125/Lesson12/index.html" target="_blank">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Contact -->
+        <section id="contact" class="text-center py-5">
+            <div class="container py-5">
+                <div class="row justify-content-center">
+                    <h2 class="fw-bold">Contact</h2>
+                    <p class="lead text-muted mb-5"> Feel free to get in touch with me! I look forward to hearing from you!</p>
+                </div>
+            </div>
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="col-xl-5 col-xxl-6 mb-5">
+                        <img class="img-fluid rounded-3 my-5" src="images/htmlclass.JPG" height="600" width="600" alt="An image of Kurt Brown teaching an HTML class">
+                    </div>
+                    <div class="col-lg-8 col-xl-7 col-xxl-6 mb-5">
+                        <div class="mb-5">
+                            <h5>Location</h5>
+                            <p class="lead mb-0">Charlotte, North Carolina</p>
+                        </div>
+                        <div class="mb-5">
+                            <h5>Email</h5>
+                            <p class="lead mb-0"><a href="mailto:klbrown13@my.waketech.edu">
+                                klbrown13@my.waketech.edu</a
+                              ></p>
+                        </div>
+                        <div class="mb-5">
+                            <h5>GitHub</h5>
+                            
+                            <a href="https://github.com/klbrown13" target="_blank"><img src="images/github-logo2.png" alt="Github Logo" width="40" height="40"></a>
+                        </div>
+                        <div class="mb-5">
+                            <h5>LinkedIn</h5>
+                            
+                            <a href="https://www.linkedin.com/in/kurt-brown-coding/" target="_blank"><img src="images/linkedin-logo2.png" alt="LinkedIn Logo"></a>
+                        </div>
+                        <div class="mb-5">
+                            <h5>Check out my blog!</h5>
+                            
+                            <a href="https://kurtbrownwp2.wordpress.com/" target="_blank"><img src="images/wordpress-logo.png" alt="WordPress Logo" width="50" height="50"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </main>
+    </div>
+    <hr>
+
+    <!-- Footer -->
+
+    <footer class="text-center py-4">
+        <div class="container px-5 mb-2">
+            Copyright &copy; 2024 Kurt Brown - Web 287. 
+          </div>
+      </footer>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
